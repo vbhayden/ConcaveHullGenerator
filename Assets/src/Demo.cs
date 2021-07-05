@@ -8,13 +8,13 @@ namespace ConcaveHull
         List<Node> dots = new List<Node>(); //Used only for the demo
 
         public string seed;
-        [Min(0.001f)] public int scaleFactor = 1;
+        [Min(1)] public int scaleFactor = 1;
         [Min(3)] public int initialDotCount = 100;
         [Range(-5, 5)] public float concavity = 1;
 
         private Hull hull;
 
-        void Update()
+        void OnEnable()
         {
             RandomizeDots(initialDotCount); //Used only for the demo
             

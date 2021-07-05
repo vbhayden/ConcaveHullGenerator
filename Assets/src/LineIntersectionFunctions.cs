@@ -1,7 +1,7 @@
 ﻿using ConcaveHull;
 using System;
 
-namespace Assets.src
+namespace ConcaveHull
 {
     /* All this class comes from this extremely useful library:
      * https://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/

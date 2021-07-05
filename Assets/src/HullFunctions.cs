@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Assets.src
+namespace ConcaveHull
 {
     public static class HullFunctions
     {
